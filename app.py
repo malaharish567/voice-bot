@@ -4,9 +4,9 @@ from openai import OpenAI
 
 class AI_Assistant:
     def __init__(self):
-        aai.settings.api_key = " 8f6dc8379c3c4097b381c3466f068e69"
-        self.openai_client = OpenAI(api_key = "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")
-        self.elevenlabs_api_key = "sk_cedc826fba55b0cf3181f7d37c478ac0acf6687a522e656f"
+        aai.settings.api_key = " assemblyai_api_key"
+        self.openai_client = OpenAI(api_key = "openai_api_key")
+        self.elevenlabs_api_key = "elevenlabs_api_key"
 
         self.transcriber = None
 
