@@ -1,0 +1,5 @@
+#portaudio
+assemblyai[extras]
+elevenlabs==0.3.0b0
+mpv
+openaicls
