@@ -5,8 +5,8 @@ from openai import OpenAI
 class AI_Assistant:
     def __init__(self):
         aai.settings.api_key = " assemblyai_api_key"
-        self.openai_api_key = "openai_api_key"
-        self.elevenlabs_api_key = "elevenlabs_api_key"
+        openai_api_key = "openai_api_key"
+        elevenlabs_api_key = "elevenlabs_api_key"
 
         self.transcriber = None
 
